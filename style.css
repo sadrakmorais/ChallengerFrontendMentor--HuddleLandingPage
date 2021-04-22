@@ -1,0 +1,218 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+/*Configurações gerais*/
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+/*LANDING*/
+
+.landing {
+  height: 840px;
+  width: 100%;
+  background: #edfbfe;
+}
+.landing .bg {
+  width: 100%;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  width: 100%px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -740px;
+}
+.btn {
+  padding: 10px 50px;
+  background: #fff;
+  border-radius: 50px;
+  border: 2px solid hsl(208, 11%, 55%);
+  color: hsl(208, 11%, 55%);
+  font-family: "Poppins", sans-serif;
+}
+.btn:hover {
+  box-shadow: 5px 5px 10px #c4e5f5;
+  color: hsl(208, 11%, 55%);
+  font-family: "Poppins", sans-serif;
+}
+.landingbody {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+.GetStart {
+  margin-top: 40px;
+  width: 40%;
+}
+.LandingImg img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 300px;
+}
+.landingbody h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  margin-right: 40px;
+  font-weight: 600px;
+}
+.landingbody h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: hsl(180, 1%, 18%);
+  margin-bottom: 40px;
+}
+.landingbody .btn {
+  background: hsl(322, 100%, 66%);
+  color: #fff;
+  border: none;
+  font-size: 15px;
+}
+
+/* BODY*/
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  margin-top: 120px;
+  padding-left: 250px;
+}
+.body img {
+  width: 600px;
+  height: 500px;
+}
+.body .text {
+  width: 400px;
+  margin-top: 200px;
+}
+.body h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: hsl(208, 11%, 55%);
+  font-weight: normal;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+.card1 .img,
+.card3 .img {
+  padding-left: 340px;
+}
+.card2 .text {
+  padding-left: 340px;
+}
+/*FOOTER*/
+.footer {
+  margin-top: 200px;
+  width: 100%;
+  background: hsl(192, 100%, 9%);
+}
+.footer-info {
+  width: 100%;
+}
+
+.footer-container .call {
+  width: 1000px;
+  height: 200px;
+  border-radius: 15px;
+  background: #fff;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: -90px;
+}
+.footer-container .call h1 {
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+.footer-container .call a {
+  padding: 25px 150px;
+  background: hsl(322, 100%, 66%);
+  color: #fff;
+  border: none;
+  font-size: 15px;
+}
+
+.footer-container .logo {
+  margin-bottom: 40px;
+}
+
+.footer-container .contato li {
+  width: 100%;
+  display: flex;
+  margin-left: -40px;
+}
+.footer-container .contato li img {
+  max-height: 20px;
+  max-width: 20px;
+}
+.footer-container .contato li p {
+  width: 350px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  margin: -4px 20px 20px 15px;
+}
+.info-container {
+  display: flex;
+}
+.info-container .redes {
+  display: flex;
+  margin-right: 100px;
+}
+.info-container .redes a {
+  border: 2px solid #fff;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.info-container .redes img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 5px;
+}
+
+.menu1 a,
+.menu2 a {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  line-height: 40px;
+}
+.menu1,
+.menu2 {
+  margin: 0px 180px 0 50px;
+}
+.copy {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  color: #fff;
+  text-align: end;
+  padding-bottom: 40px;
+}
